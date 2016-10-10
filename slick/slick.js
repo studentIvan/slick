@@ -527,7 +527,7 @@
         _.$slideTrack.css('opacity', 0);
 
         if (_.options.centerMode === true || _.options.swipeToSlide === true) {
-            _.options.slidesToScroll = 1;
+            // _.options.slidesToScroll = 1; what a fuck?
         }
 
         $('img[data-lazy]', _.$slider).not('[src]').addClass('slick-loading');
